@@ -6,7 +6,7 @@ class SiteContent extends React.Component {
         return (
             <div className="ui comments">
                 <a href="/" className="avator">
-                    <img class="ui fluid image" alt="" src={faker.image.food()} />
+                    <img class="ui fluid image" alt="" src={faker.image.city()} />
                 </a></div>
         );
     }
