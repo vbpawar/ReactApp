@@ -1,8 +1,10 @@
 import React from 'react';
 import SiteContent from './SiteContent';
+import Form from './Form';
+import CustomerSupport from './CustomerSupport';
 const Sidebar = () => {
   return (
-    <div className="ui bottom" style={{marginTop:'10px'}}>
+    <div className="ui bottom" style={{ marginTop: '10px' }}>
       <div className="ui visible inverted left vertical sidebar menu">
         <a className="active item">
           <i className="home icon"></i>
@@ -22,8 +24,10 @@ const Sidebar = () => {
     </a>
       </div>
       <div className="pusher">
-   <SiteContent />
-  </div>
+        <SiteContent />
+       
+      </div>
+      <CustomerSupport />
     </div>
   );
 }
